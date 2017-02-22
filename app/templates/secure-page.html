@@ -1,3 +1,7 @@
-<hr>
-This is the secure page
-<p>Copyright &copy; Flask Inc.</p>
+{% extends "base.html" %}
+
+{% block main %}
+    {% include 'flash_messages.html' %}
+    <h1>Welcome to the Secure Page</h1>
+  
+{% endblock %}
